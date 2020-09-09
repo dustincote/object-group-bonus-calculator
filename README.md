@@ -1,4 +1,4 @@
-# Bonus Calculator App
+..# Bonus Calculator App
 
 ## Objectives
 
@@ -29,10 +29,10 @@ Each **Employee** currently is configured in this way:
 
 ## Processing Employee Bonuses
 
-Loop over the `employees` array and do the following:
+√ Loop over the `employees` array and do the following:
 
 * use each employee object as the input to the function described below.
-* `console.log` the results of each iteration.
+√ * `console.log` the results of each iteration.
 
 ## Function Logic
 
