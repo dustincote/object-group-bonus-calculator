@@ -85,7 +85,10 @@ function getBonusCalc(objEmployee) {
       bonusPercentage = .13;
     }
   }
-  let totalCompensation = Math.round((bonusPercentage + 1) * objEmployee.annualSalary);
+  if (bonusPercentage < 0){
+    bonusPercentage = 0;
+  }
+    let totalCompensation = Math.round((bonusPercentage + 1) * objEmployee.annualSalary);
   let totalBonus = Math.round(bonusPercentage * objEmployee.annualSalary);
 
   let newObjEmployee = {
